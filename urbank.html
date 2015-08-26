@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- Created for the Ally Code Challenge by Jennifer Mitchell. 8/11/2015 -->
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="urbank.js"></script>
+<link rel="stylesheet" href="urbank.css">
+<title>URBank - Company</title>
+</head>
+<body>
+
+<nav class="headerbar">
+  <img src="logo.jpg" class="logo" alt="bank logo" style="width:172px;height:44px" />
+  <ul class="topnav">
+    <li><a href="#">home</a></li>
+    <li><a href="#">employee</a></li>
+    <li><a href="urbank.html">company</a></li>
+    <li><a href="#">services</a></li>
+    <li><a href="#">contact</a></li>
+  </ul>
+</nav>
+
+<main>
+<section>
+  <h1>Best Bank Ever!</h1>
+  <p>Pellentesque habitant morbi tristique senectus et netus et <a href="#">malesuada</a> fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris <a href="#">placerat</a> eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.
+  </p>
+  <div>
+    <strong>Reasons We're Awesome:</strong><br>
+    <ul class="reasons">
+      <li>Lorem ipsum dolor sit amet.</li>
+	  <li>Aliquam tincidunt mauris eu risus.</li>
+	  <li>Lorem ipsum dolor sit amet.</li>
+	  <li>Lorem ipsum dolor sit amet.</li>
+	  <li>Vestibulum auctor dapibus neque.</li>
+    </ul>
+  </div>
+  <div class="mobile">
+    <h3>Amazing Mobile Info</h3>
+    <p>Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+    <img src="mobile.jpg" alt="mobile phone" style="width:104px;height:179px"/>
+  </div>
+</section>
+
+<section>
+  <h2><em>Rates |</em> Check them out.</h2>
+  <table id="ratestable">
+    <tr>
+      <th></th>
+      <th>Annual Percentage Yield</th>
+      <th>Est. Earnings for 1 Year*</th>
+	</tr>
+	<caption align="bottom">*Based on $50,000 deposit.</caption>
+  </table>
+</section>
+</main>
+
+<aside>
+  <a href="#login" class="button" id="login_button">Login</a>
+  <div class="sidebox">
+    <div class="sideheader_top" id="newstab">News</div><div class="sideheader_behind" id="archtab">Archive</div>
+    <div class="sidebox_content" id="news">
+	  <div><a herf="#">Lorem ipsum dolor</a>
+	    Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+	  </div>
+	  <div><a herf="#">Lorem ipsum dolor</a>
+	    Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+	  </div>
+	  <div><a herf="#">Lorem ipsum dolor</a>
+	    Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+	  </div>
+	</div>
+    <div class="sidebox_content" id="archive">
+      <a herf="#">Lorem ipsum dolor</a>
+      <a herf="#">Lorem ipsum dolor</a>
+      <a herf="#">Lorem ipsum dolor</a>
+      <a herf="#">Lorem ipsum dolor</a>
+      <a herf="#">Lorem ipsum dolor</a>
+      <a herf="#">Lorem ipsum dolor</a>
+      <a herf="#">Lorem ipsum dolor</a>
+      <a herf="#">Lorem ipsum dolor</a>
+    </div>
+  </div>
+</aside>
+
+<footer>
+<div class="copyright">
+ &copy; 2014 URBank
+</div>
+<ul class="bottomnav">
+  <li><a href="#">home</a></li>
+  <li><a href="#">employee</a></li>
+  <li><a href="urbank.html">company</a></li>
+  <li><a href="#">services</a></li>
+  <li><a href="#">contact</a></li>
+</ul>
+</footer>
+
+<div id='overlay'></div>
+<div id="login">
+  <img src="close.jpg" id="closelogin" />
+  <p>Sign In To Your Account</p>
+  <form>
+    <span class="formlabel">Username:</span><input type="text" name="username"><br>
+    <span class="formlabel">Password:</span><input type="text" name="password"><br>
+    <input type="submit" value="Login" id="submitlogin">
+</form>
+  
+</div>
+
+</body>
+</html>
